@@ -1,11 +1,39 @@
-.layout{
-    grid-template-rows: 480px 50px ;
+
+body{
+    background-color: black;
 }
 .pageTitle{
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 110px 100px 20px;
+    background-color: rgb(255, 0, 0);
+    border: 5px solid blue;
+}
+.title{
+    background-color: blue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 90px;
+    align-content: center;
 }
 .navBar{
-
+    border-left: 5px blue solid;
+    border-bottom: 5px blue solid;
+    border-right: 5px blue solid;
+    background-color: red;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 50px auto auto auto auto;
+}
+.navLink{
+    background-color: blue;
+    margin: 5px ;
+}
+.navLink:hover{
+    background-color: blue;
+    margin: 2px ;
+    padding: 3px;
+    box-shadow: 2px 2px 1px rgb(0, 0, 0), 1px 1px 1px red;
 }
 .content{
     
