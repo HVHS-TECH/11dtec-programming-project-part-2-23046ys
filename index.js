@@ -12,7 +12,8 @@ var budget
 var recommended
 var choice
 let properties = ["","","","","",""]
-let prices = [450.00, 455.70, 479.98, 590.58, 620.00]
+let weeklyPrices = [450.00, 455.70, 479.98, 590.58, 620.00]
+var timeFor
 /****************************
 Main Code:
  ***************************/
