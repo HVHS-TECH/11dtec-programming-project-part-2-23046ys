@@ -17,7 +17,7 @@ let properties = ["","","","","",""]
 let weeklyPrices = [450.00, 455.70, 479.98, 590.58, 620.00]
 let availableFurniture = []
 let furniturePrices = [15.57, 18.99, 25.33, 44.90, 66.00]
-
+var timeFrame
 var timeFor
 /****************************
 Main Code:
