@@ -21,6 +21,7 @@ The purpose of this is to make the index page more interactive
   var timeFrame
   var timeFor
   var usageFee
+  var age
   var confirm
 /****************************
 Main Code:
