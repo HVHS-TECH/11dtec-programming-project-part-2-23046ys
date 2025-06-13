@@ -13,8 +13,8 @@ var size
 var furniture
 var recommended
 var choice
-let properties = ["","","","","",""];
-let weeklyPrices = [450.00, 455.70, 479.98, 590.58, 620.00];
+let properties = ["Cabin","Small House","Small Vintage House","Medium Modern House","",""];
+let weeklyPrices = [450.00, 455.70, 479.98, 590.58, 620.00, 783.30];
 let availableFurniture = [];
 let furniturePrices = [15.57, 18.99, 25.33, 44.90, 66.00];
 var timeFrame
