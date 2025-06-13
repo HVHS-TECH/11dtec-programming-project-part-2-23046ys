@@ -12,7 +12,7 @@ var budget
 var recommended
 var choice
 let properties = ["","","","","",""]
-let prices = [50.00, 55.70, 79.98, 90.58, 120.00]
+let prices = [450.00, 455.70, 479.98, 590.58, 620.00]
 /****************************
 Main Code:
  ***************************/
