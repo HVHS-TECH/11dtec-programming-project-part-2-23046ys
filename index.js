@@ -21,7 +21,7 @@ let furniturePrices = [15.57, 18.99, 25.33, 44.90, 66.00];
 var timeFrame
 var timeFor
 var usageFee
-
+var confirm
 /****************************
 Main Code:
  ***************************/
