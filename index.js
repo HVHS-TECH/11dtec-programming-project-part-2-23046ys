@@ -28,4 +28,4 @@ Main Code:
 /****************************
 Functions
  ***************************/
-function 
+function setHouse1
