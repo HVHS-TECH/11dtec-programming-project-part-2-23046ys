@@ -8,7 +8,6 @@ The purpose of this is to make the website more interactive and functional
 
 
 //Variables
-    var budget
     var size
     var purpose
     var recommended
@@ -20,7 +19,7 @@ The purpose of this is to make the website more interactive and functional
     var usageFee
     var age
     var confirm
-    
+
     var purchased= "Not";
 /****************************
 Main Code:
