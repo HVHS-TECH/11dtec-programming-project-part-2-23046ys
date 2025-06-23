@@ -49,9 +49,11 @@ function setHouse6() {
   choice= 6;
 }
 function calculatePrice() {
-if(){
+if(timeFrame== "Yearly"){
 
-}else if(){
-  
+}else if(timeFrame== "Monthly"){
+
+}else if(timeFrame== "Weekly"){
+
 }
 }
