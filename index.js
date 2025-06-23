@@ -20,10 +20,11 @@ The purpose of this is to make the website more interactive and functional
     var usageFee
     var age
     var confirm
+    var purchased= "Not";
 /****************************
 Main Code:
  ***************************/
-
+while(purchased=="Not")
 
 /****************************
 Functions
@@ -46,4 +47,6 @@ function setHouse5() {
 function setHouse6() {
   choice= 6;
 }
-function calculatePrice() 
+function calculatePrice() {
+
+}
