@@ -20,6 +20,7 @@ The purpose of this is to make the website more interactive and functional
     var usageFee
     var age
     var confirm
+    
     var purchased= "Not";
 /****************************
 Main Code:
