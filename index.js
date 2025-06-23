@@ -13,8 +13,8 @@ The purpose of this is to make the website more interactive and functional
     var purpose
     var recommended
     var choice
-      let properties = ["Cabin","Small House","Small Vintage House","Medium Modern House","Theater","Lakeside Cabin"];
-      let weeklyPrices = [450.00, 455.70, 479.98, 590.58, 620.00, 783.30];
+      let propertiesArray = ["Cabin","Small House","Small Vintage House","Medium Modern House","Theater","Lakeside Cabin"];
+      let weeklyArray = [450.00, 455.70, 479.98, 590.58, 620.00, 783.30];
     var timeFrame
     var timeFor
     var usageFee
