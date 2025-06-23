@@ -24,7 +24,9 @@ The purpose of this is to make the website more interactive and functional
 /****************************
 Main Code:
  ***************************/
-while(purchased=="Not")
+while(purchased=="Not"){
+  
+}
 
 /****************************
 Functions
