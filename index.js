@@ -46,3 +46,4 @@ function setHouse5() {
 function setHouse6() {
   choice= 6;
 }
+function calculatePrice() 
