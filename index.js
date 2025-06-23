@@ -28,4 +28,21 @@ Main Code:
 /****************************
 Functions
  ***************************/
-function setHouse1
+function setHouse1() {
+  choice= 1;
+}
+function setHouse2() {
+  choice= 2;
+}
+function setHouse3() {
+  choice= 3;
+}
+function setHouse4() {
+  choice= 4;
+}
+function setHouse5() {
+  choice= 5;
+}
+function setHouse6() {
+  choice= 6;
+}
