@@ -49,5 +49,9 @@ function setHouse6() {
   choice= 6;
 }
 function calculatePrice() {
+if(){
 
+}else if(){
+  
+}
 }
