@@ -11,7 +11,7 @@ The purpose of this is to make the website more interactive and functional
     var size
     var purpose
     var recommended
-    var choice
+    var choice= 0;
       let propertiesArray = ["Cabin","Small House","Small Vintage House","Medium Modern House","Theater","Lakeside Cabin"];
       let weeklyArray = [450.00, 455.70, 479.98, 590.58, 620.00, 783.30];
     var timeFrame
@@ -49,6 +49,7 @@ function setHouse6() {
   choice= 6;
 }
 function calculatePrice() {
+  if(choice > 0){
 if(timeFrame== "Yearly"){
 price = (weeklyArray[choice] * 52) * timeFor;
 }else if(timeFrame== "Monthly"){
@@ -57,5 +58,6 @@ price = ((weeklyArray[choice] * 52 ) /12 ) * timeFor;
 price = weeklyArray[choice] * timeFor;
 }else if(timeFrame== "Daily"){
   price = (weeklyArray[choice] / 7) * timeFor;
+}
 }
 }
