@@ -48,6 +48,13 @@ function setHouse5() {
 function setHouse6() {
   choice= 6;
 }
+function setHouseRecommended() {
+  if(recommended> 0){
+    choice= recommended;
+  }else{
+    alert("You have not done the survey, we cannot recommend anything.")
+  }
+}
 function calculatePrice() {
   if(choice > 0){
 if(timeFrame== "Yearly"){
