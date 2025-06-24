@@ -50,10 +50,10 @@ function setHouse6() {
 }
 function calculatePrice() {
 if(timeFrame== "Yearly"){
-price = weeklyArray[choice];
+price = (weeklyArray[choice] * 52) * timeFor;
 }else if(timeFrame== "Monthly"){
-
+price = ((weeklyArray[choice] * 52 ) /12 ) * timeFor;
 }else if(timeFrame== "Weekly"){
-
+price = weeklyArray[choice] * timeFor;
 }
 }
