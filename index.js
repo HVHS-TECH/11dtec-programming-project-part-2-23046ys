@@ -55,5 +55,7 @@ price = (weeklyArray[choice] * 52) * timeFor;
 price = ((weeklyArray[choice] * 52 ) /12 ) * timeFor;
 }else if(timeFrame== "Weekly"){
 price = weeklyArray[choice] * timeFor;
+}else if(timeFrame== "Daily"){
+  price = (weeklyArray[choice] / 7) * timeFor;
 }
 }
