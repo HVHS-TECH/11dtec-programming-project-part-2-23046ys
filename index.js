@@ -18,7 +18,7 @@ The purpose of this is to make the website more interactive and functional
     var timeFor
     var age
     var confirm
-
+    var price
     var purchased= "Not";
 /****************************
 Main Code:
@@ -50,7 +50,7 @@ function setHouse6() {
 }
 function calculatePrice() {
 if(timeFrame== "Yearly"){
-
+price = weeklyArray[choice];
 }else if(timeFrame== "Monthly"){
 
 }else if(timeFrame== "Weekly"){
