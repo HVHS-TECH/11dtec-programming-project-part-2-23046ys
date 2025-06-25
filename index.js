@@ -75,6 +75,7 @@ price = weeklyArray[choice] * timeFor;
 }
 }
 }
+function 
 function calculateRecommendation() {
 
 }
