@@ -25,6 +25,8 @@ body{
     display: grid;
     grid-template-rows: 50px;
     grid-template-columns:  auto auto;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 .navLink{
     background-color: blue;
