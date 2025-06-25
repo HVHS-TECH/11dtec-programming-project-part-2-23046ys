@@ -10,6 +10,7 @@ The purpose of this is to make the website more interactive and functional
 //Variables
     var size
     var purpose
+    var priceRange
     var recommended
     var choice= 0;
       let propertiesArray = ["Cabin","Small House","Small Vintage House","Medium Modern House","Theater","Lakeside Cabin"];
@@ -73,4 +74,7 @@ price = weeklyArray[choice] * timeFor;
   price = (weeklyArray[choice] / 7) * timeFor;
 }
 }
+}
+function calculateRecommendation() {
+
 }
