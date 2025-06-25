@@ -31,25 +31,32 @@ Functions
  ***************************/
 function setHouse1() {
   choice= 1;
+  calculatePrice()
 }
 function setHouse2() {
   choice= 2;
+  calculatePrice()
 }
 function setHouse3() {
   choice= 3;
+  calculatePrice()
 }
 function setHouse4() {
   choice= 4;
+  calculatePrice()
 }
 function setHouse5() {
   choice= 5;
+  calculatePrice()
 }
 function setHouse6() {
   choice= 6;
+  calculatePrice()
 }
 function setHouseRecommended() {
   if(recommended> 0){
     choice= recommended;
+    calculatePrice()
   }else{
     alert("You have not done the survey, we cannot recommend anything.")
   }
