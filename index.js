@@ -75,7 +75,24 @@ price = weeklyArray[choice] * timeFor;
 }
 }
 }
-function setSize
+function setSizeSmall() {
+
+}
+function setSizeMedium() {
+  
+}
+function setSizeLarge() {
+  
+}
+function setPurposeTempHome() {
+  
+}
+function setPurposeParty() {
+  
+}
+function setPurposeWedding() {
+  
+}
 function calculateRecommendation() {
 
 }
