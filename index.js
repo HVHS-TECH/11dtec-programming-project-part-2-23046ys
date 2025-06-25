@@ -22,10 +22,9 @@ The purpose of this is to make the website more interactive and functional
     var purchased= "Not";
 /****************************
 Main Code:
+
  ***************************/
-while(purchased=="Not"){
-  calculatePrice();
-}
+
 
 /****************************
 Functions
