@@ -67,7 +67,7 @@ function setHouseRecommended() {
 function calculatePrice() {
 
   if(choice > 0){
-    
+
 if(timeFrame== "Yearly"){
 price = (weeklyArray[choice] * 52) * timeFor;
 }
@@ -138,5 +138,9 @@ function calculateRecommendation() {
   }else{
     recommended= size + purpose - priceRange;
   }
+  
+}
+
+function confirmationOfThePurchaseToAnnoyPeople(){
   
 }
