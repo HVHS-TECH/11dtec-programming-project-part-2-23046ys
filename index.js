@@ -55,7 +55,7 @@ function setHouse6() {
   calculatePrice()
 }
 function setHouseRecommended() {
-  if(recommended> 0){
+  if(recommended > 0){
     choice= recommended;
     calculatePrice()
   }else{
