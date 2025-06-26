@@ -145,7 +145,7 @@ function confirmationOfThePurchaseToAnnoyPeople(){
   if(choice == 0){
     alert("You haven't selected a property.")
   }else{
-if(age < 18 || ){
+if(age < 18 || isNaN(age) || age == null || age == ""){
     alert("You are too young to rent a property.")
   }else{
 
