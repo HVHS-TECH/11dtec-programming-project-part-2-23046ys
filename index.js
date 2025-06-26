@@ -93,6 +93,7 @@ function setPurposeParty() {
 function setPurposeWedding() {
   purpose= ;
 }
+function setPrice
 function calculateRecommendation() {
 
 }
