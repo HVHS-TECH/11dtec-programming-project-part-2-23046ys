@@ -62,43 +62,76 @@ function setHouseRecommended() {
     alert("You have not done the survey, we cannot recommend anything.")
   }
 }
+
+
 function calculatePrice() {
+
   if(choice > 0){
+    
 if(timeFrame== "Yearly"){
 price = (weeklyArray[choice] * 52) * timeFor;
-}else if(timeFrame== "Monthly"){
+}
+else if(timeFrame== "Monthly"){
 price = ((weeklyArray[choice] * 52 ) /12 ) * timeFor;
-}else if(timeFrame== "Weekly"){
+}
+else if(timeFrame== "Weekly"){
 price = weeklyArray[choice] * timeFor;
-}else if(timeFrame== "Daily"){
+}
+else if(timeFrame== "Daily"){
   price = (weeklyArray[choice] / 7) * timeFor;
 }
 }
 }
+
+
 function setSizeSmall() {
   size= 1;
+  calculateRecommendation()
 }
+
+
 function setSizeMedium() {
   size= 2;
+  calculateRecommendation()
 }
+
+
 function setSizeLarge() {
   size= 3;
+  calculateRecommendation()
 }
+
+
 function setPurposeTempHome() {
   purpose= 1;
+  calculateRecommendation()
 }
+
+
 function setPurposeParty() {
   purpose= 2;
+  calculateRecommendation()
 }
+
+
 function setPurposeWedding() {
   purpose= 3;
+  calculateRecommendation()
 }
+
+
 function setPriceRangeCheap () {
   priceRange= 1;
+  calculateRecommendation()
 }
+
+
 function setPriceRangeNotCheap () {
   priceRange= 0;
+  calculateRecommendation()
 }
+
+
 function calculateRecommendation() {
   if(size == "Not" || purpose == "Not" || priceRange == "Not"){
 
