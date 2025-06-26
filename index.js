@@ -8,10 +8,10 @@ The purpose of this is to make the website more interactive and functional
 
 
 //Variables
-    var size
-    var purpose
-    var priceRange
-    var recommended
+    var size= "Not";
+    var purpose= "Not";
+    var priceRange= "Not";
+    var recommended= 0;
     var choice= 0;
       let propertiesArray = ["Cabin","Small House","Small Vintage House","Medium Modern House","Theater","Lakeside Cabin"];
       let weeklyArray = [450.00, 455.70, 479.98, 590.58, 620.00, 783.30];
@@ -100,7 +100,7 @@ function setPriceRangeNotCheap () {
   priceRange= 0;
 }
 function calculateRecommendation() {
-  if(){
+  if(size == "Not" || purpose == "Not" || priceRange == "Not"){
 
   }else{
     recommended= size + purpose - priceRange;
