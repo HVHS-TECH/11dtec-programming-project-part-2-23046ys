@@ -142,5 +142,5 @@ function calculateRecommendation() {
 }
 
 function confirmationOfThePurchaseToAnnoyPeople(){
-  prompt
+  
 }
