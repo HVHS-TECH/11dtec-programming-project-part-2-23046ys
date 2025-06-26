@@ -145,8 +145,9 @@ function confirmationOfThePurchaseToAnnoyPeople(){
   if(choice == 0){
     alert("You haven't selected a property.")
   }else{
+    age= Number(prompt("Enter your age."))
 if(age < 18 || isNaN(age) || age == null || age == ""){
-    alert("You are too young to rent a property.")
+    alert("You have not entered a valid age or you are too young.")
   }else{
 
     confirm= prompt("Type your selected property into the prompt to confirm your purchase.");
