@@ -142,17 +142,20 @@ function calculateRecommendation() {
 }
 
 function confirmationOfThePurchaseToAnnoyPeople(){
-  if(){
-    
-  }
-  if(age < 18){
+  if(choice == 0){
+    alert("You haven't selected a property.")
+  }else{
+if(age < 18 || ){
     alert("You are too young to rent a property.")
   }else{
+
     confirm= prompt("Type your selected property into the prompt to confirm your purchase.");
     if(confirm == propertiesArray[choice]){
       purchased= "Not not"
     }else{
       alert("Purchase cancelled.")
     }
+
+  }
   }
 }
