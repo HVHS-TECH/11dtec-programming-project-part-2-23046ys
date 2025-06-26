@@ -100,5 +100,10 @@ function setPriceRangeNotCheap () {
   priceRange= 0;
 }
 function calculateRecommendation() {
-  recommended= size + purpose - priceRange;
+  if(){
+
+  }else{
+    recommended= size + purpose - priceRange;
+  }
+  
 }
