@@ -79,10 +79,12 @@ function setHouseRecommended() {
 }
 
 function addDecor(){
-
+  decorationPrice= 7.77;
+  calculatePrice()
 }
 function removeDecor(){
-  
+  decorationPrice= 0;
+  calculatePrice()
 }
 
 function calculatePrice() {
@@ -90,16 +92,20 @@ function calculatePrice() {
   if(choice > 0){
 
 if(timeFrame== "Yearly"){
-price = (weeklyArray[choice] * 52) * timeFor;
+price = ((weeklyArray[choice] + decorationPrice) * 52) * timeFor;
+  console.log(price)
 }
 else if(timeFrame== "Monthly"){
-price = ((weeklyArray[choice] * 52 ) /12 ) * timeFor;
+price = ((weeklyArray[choice] + decorationPrice) /12 ) * timeFor;
+  console.log(price)
 }
 else if(timeFrame== "Weekly"){
-price = weeklyArray[choice] * timeFor;
+price = (weeklyArray[choice] + decorationPrice) * timeFor;
+  console.log(price)
 }
 else if(timeFrame== "Daily"){
-  price = (weeklyArray[choice] / 7) * timeFor;
+  price = ((weeklyArray[choice] + decorationPrice) / 7) * timeFor;
+  console.log(price)
 }
 }
 }
