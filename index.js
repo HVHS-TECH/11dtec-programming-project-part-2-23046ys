@@ -21,11 +21,19 @@ The purpose of this is to make the website more interactive and functional
     var confirm
     var price
     var purchased= "Not";
+    var userName
 /****************************
 Main Code:
 
  ***************************/
-
+while(userName == null){
+userName=prompt("What is your name?");
+if(userName== "" || userName== " " || !isNaN(userName) || userName == null){
+  while(userName== "" || userName== " " || !isNaN(userName) || userName == null){
+    userName=prompt("Enter a valid name.");
+  }
+}
+}
 
 /****************************
 Functions
@@ -65,7 +73,7 @@ function setHouseRecommended() {
     choice= recommended;
     calculatePrice()
   }else{
-    alert("You have not done the survey, we cannot recommend anything.")
+    alert("You have not done the survey, we cannot recommend anything " + userName + ".")
   }
 }
 
@@ -149,7 +157,7 @@ function calculateRecommendation() {
 
 function confirmationOfThePurchaseToAnnoyPeople(){
   if(choice == 0){
-    alert("You haven't selected a property.")
+    alert("You haven't selected a property " + userName + ".")
   }else{
     age= Number(prompt("Enter your age."))
 if(age < 18 || isNaN(age) || age == null || age == ""){
