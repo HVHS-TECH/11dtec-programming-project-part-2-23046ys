@@ -39,6 +39,51 @@ if(userName== "" || userName== " " || !isNaN(userName) || userName == null){
 /****************************
 Functions
  ***************************/
+function setTimeFrameYear(){
+  timeFrame= "Yearly";
+  timeFor= prompt("How many years?")
+  if(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+    while(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+      timeFor= prompt("Enter a valid number.")
+    }
+  }
+  console.log(timeFrame, timeFor)
+  calculatePrice()
+}
+function setTimeFrameMonth(){
+  timeFrame= "Monthly";
+  timeFor= prompt("How many months?")
+  if(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+    while(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+      timeFor= prompt("Enter a valid number.")
+    }
+  }
+  console.log(timeFrame, timeFor)
+  calculatePrice()
+}
+function setTimeFrameWeek(){
+  timeFrame= "Weekly";
+  timeFor= prompt("How many weeks?")
+  if(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+    while(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+      timeFor= prompt("Enter a valid number.")
+    }
+  }
+  console.log(timeFrame, timeFor)
+  calculatePrice()
+}
+function setTimeFrameDay(){
+  timeFrame= "Daily";
+  timeFor= prompt("How many days?")
+  if(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+    while(timeFor== 0 || timeFor =="" || timeFor == " " || isNaN(timeFor) || timeFor == null){
+      timeFor= prompt("Enter a valid number.")
+    }
+  }
+  console.log(timeFrame, timeFor)
+  calculatePrice()
+}
+
 function setHouse1() {
   choice= 1;
   calculatePrice()
