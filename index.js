@@ -168,7 +168,7 @@ if(age < 18 || isNaN(age) || age == null || age == ""){
     if(confirm == propertiesArray[choice]){
       purchased= "Not not"
     }else{
-      alert("Purchase cancelled.")
+      alert("Your purchase has been cancelled, " + userName + ".")
     }
 
   }
