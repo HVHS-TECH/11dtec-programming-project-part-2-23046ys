@@ -42,32 +42,32 @@ Functions
 function setHouse1() {
   choice= 1;
   calculatePrice()
-  console.log(choice)
+  console.log("Choice=", choice)
 }
 function setHouse2() {
   choice= 2;
   calculatePrice()
-  console.log(choice)
+  console.log("Choice=", choice)
 }
 function setHouse3() {
   choice= 3;
   calculatePrice()
-  console.log(choice)
+  console.log("Choice=", choice)
 }
 function setHouse4() {
   choice= 4;
   calculatePrice()
-  console.log(choice)
+  console.log("Choice=", choice)
 }
 function setHouse5() {
   choice= 5;
   calculatePrice()
-  console.log(choice)
+  console.log("Choice=", choice)
 }
 function setHouse6() {
   choice= 6;
   calculatePrice()
-  console.log(choice)
+  console.log("Choice=", choice)
 }
 function setHouseRecommended() {
   if(recommended > 0){
@@ -93,19 +93,19 @@ function calculatePrice() {
 
 if(timeFrame== "Yearly"){
 price = ((weeklyArray[choice] + decorationPrice) * 52) * timeFor;
-  console.log(price)
+  console.log("$", price)
 }
 else if(timeFrame== "Monthly"){
 price = ((weeklyArray[choice] + decorationPrice) /12 ) * timeFor;
-  console.log(price)
+  console.log("$", price)
 }
 else if(timeFrame== "Weekly"){
 price = (weeklyArray[choice] + decorationPrice) * timeFor;
-  console.log(price)
+  console.log("$", price)
 }
 else if(timeFrame== "Daily"){
   price = ((weeklyArray[choice] + decorationPrice) / 7) * timeFor;
-  console.log(price)
+  console.log("$", price)
 }
 }
 }
