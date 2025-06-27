@@ -33,26 +33,32 @@ Functions
 function setHouse1() {
   choice= 1;
   calculatePrice()
+  console.log(choice)
 }
 function setHouse2() {
   choice= 2;
   calculatePrice()
+  console.log(choice)
 }
 function setHouse3() {
   choice= 3;
   calculatePrice()
+  console.log(choice)
 }
 function setHouse4() {
   choice= 4;
   calculatePrice()
+  console.log(choice)
 }
 function setHouse5() {
   choice= 5;
   calculatePrice()
+  console.log(choice)
 }
 function setHouse6() {
   choice= 6;
   calculatePrice()
+  console.log(choice)
 }
 function setHouseRecommended() {
   if(recommended > 0){
