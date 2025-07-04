@@ -229,6 +229,7 @@ if(age < 18 || isNaN(age) || age == null || age == ""){
     confirm= prompt("Type your selected property into the prompt to confirm your purchase.");
     if(confirm == propertiesArray[choice]){
       purchased= "Not not"
+      document.getElementById("selectedPurchase").innerHTML= propertiesArray[choice] + "-Purchased";
     }else{
       alert("Your purchase has been cancelled, " + userName + ".")
     }
