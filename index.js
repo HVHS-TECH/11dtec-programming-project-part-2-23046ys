@@ -192,13 +192,13 @@ function setPurposeWedding() {
 }
 
 
-function setPriceRangeCheap () {
+function setPriceRangeCheap() {
   priceRange= 1;
   calculateRecommendation()
 }
 
 
-function setPriceRangeNotCheap () {
+function setPriceRangeNotCheap() {
   priceRange= 0;
   calculateRecommendation()
 }
