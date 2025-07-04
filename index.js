@@ -153,6 +153,8 @@ else if(timeFrame== "Daily"){
   console.log("$", price)
 }
 }
+document.getElementById("selectedPurchase").innerHTML= gfhGh;
+document.getElementById("selectedPurchasePrice").innerHTML= price;
 }
 
 
