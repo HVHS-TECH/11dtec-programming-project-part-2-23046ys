@@ -6,11 +6,8 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 10px 100px 120px;
-    background-color: rgb(255, 0, 0);
-    border: 5px solid blue;
 }
 .title{
-    background-color: blue;
     grid-column: 2/3;
     grid-row: 2/3;
     height: 90px;
@@ -18,10 +15,7 @@ body{
     font-size: 50px;
 }
 .navBar{
-    border-left: 5px blue solid;
-    border-bottom: 5px blue solid;
-    border-right: 5px blue solid;
-    background-color: red;
+    
     display: grid;
     grid-template-rows: 50px;
     grid-template-columns: auto;
