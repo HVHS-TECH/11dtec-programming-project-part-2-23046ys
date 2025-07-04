@@ -154,7 +154,9 @@ else if(timeFrame== "Daily"){
 }
 }
 document.getElementById("selectedPurchase").innerHTML= propertiesArray[choice];
-document.getElementById("selectedPurchasePrice").innerHTML= price;
+if(price>0){
+document.getElementById("selectedPurchasePrice").innerHTML= "$" + price;
+}
 }
 
 
